@@ -1,1 +1,134 @@
+/* Main style for Octavio Espinosa personal website : CV, OE 2018 */
+/* Parts adapted from Traversy Media, 2017 */
+/* Parts adapted from https://github.com/jokergoo/jokergoo.github.io */
+/* background occasionally repeated for old browsers */
 
+/* CSS Variables */
+:root {
+  --backgroundColor:#f9f9f9;
+  --backgroundColor2:#004D44;
+  --textColor1:#333333;
+  --textColor2:#f4f4f4;
+  --secondary:#999;
+  --hover:#cccccc;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: "PT Sans",'Helvetica Neue',Arial,Helvetica,sans-serif;
+  font-family: Ubuntu, sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f9f9f9;
+  background-color:var(--backgroundColor);
+}
+
+h1,
+h2,
+h3 {
+  color:#333333;
+  color:var(--textColor1);
+}
+
+a {
+  outline: none;
+}
+
+.wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.header {
+  padding: 20px 0;
+  position: relative;
+  background-color:#add8e6;
+  background-color:var(--backgroundColor2);
+  border-bottom: 1px solid #eaeaea;
+}
+
+.nav {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 15px;
+  text-align: right;
+  
+}
+
+.nav-links {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin: 0 0 0 15px;
+}
+
+.nav-links li:first-child {
+  margin-left: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color:#f4f4f4;
+  color:var(--textColor2);
+}
+
+.nav-links a:hover {
+  color:#cccccc;
+  color:var(--hover);
+}
+
+.content {
+  max-width: 700px;
+  margin: 40px auto 10px;
+  padding: 0 15px;
+  font-size: 16px;
+  line-height: 1.7;
+  color:#333333;
+  color:var(--textColor1);
+}
+
+.footer {
+  padding: 25px 0;
+  text-align: center;
+}
+
+
+@media (min-width: 600px) {
+  .header {
+    padding: 25px 0;
+  }
+
+  .nav-links {
+    font-size: 18px;
+  }
+
+  .nav-links li {
+    margin: 0 0 0 30px;
+  }
+
+  .content {
+    font-size: 19px;
+    line-height: 1.8;
+  }
+
+}
+
+@media print {
+  .header, .footer {
+    display: none;
+  }
+  .article-content a {
+    box-shadow: none;
+  }
+}
+
+
+
+.nav-links {
+  font-size: 16px;
+}
