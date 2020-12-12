@@ -95,6 +95,20 @@ a {
 .gsc_a_b {
   font-size: 14px;
 }
+.gsc_a_t,
+.gsc_a_c,
+.gsc_a_y,
+.gsc_a_h,
+.gsc_a_hc,
+.gs_ibl{
+  font-size: 14px;
+}
+
+
+.gsc_a_t a {
+  font-size: 14px;
+}
+
 
 .footer {
   padding: 25px 0;
