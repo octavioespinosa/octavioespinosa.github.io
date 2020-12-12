@@ -92,6 +92,10 @@ a {
   color:var(--textColor1);
 }
 
+.gsc_a_b {
+  font-size: 10px;
+}
+
 .footer {
   padding: 25px 0;
   text-align: center;
