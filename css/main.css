@@ -92,6 +92,10 @@ a {
   color:var(--textColor1);
 }
 
+.container {
+  margin: 10px 10px 10px;
+}
+
 .gsc_a_b {
   font-size: 14px;
 }
