@@ -75,6 +75,7 @@ a {
   text-decoration: none;
   color:#f4f4f4;
   color:var(--textColor2);
+  font-weight:bold;
 }
 
 .nav-links a:hover {
