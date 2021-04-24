@@ -5,7 +5,7 @@
 
 /* CSS Variables */
 :root {
-  --backgroundColor:#f9f9f9;
+  --backgroundColor:#FFF8E7;
   --backgroundColor2:#004D44;
   --textColor1:#333333;
   --textColor2:#f4f4f4;
@@ -19,7 +19,7 @@ body{
   font-family: Ubuntu, sans-serif;
   padding:0;
   margin:0;
-  background-color:#f9f9f9;
+  background-color:#FFF8E7;
   background-color:var(--backgroundColor);
 }
 
