@@ -85,9 +85,9 @@ a {
 
 .content {
   max-width: 700px;
-  margin: 25px auto 10px;
+  margin: 10px auto 10px;
   padding: 10px 10px;
-  line-height: 1.5;
+  line-height: normal;
   font-size: 100%;
   color:#333333;
   color:var(--textColor1);
