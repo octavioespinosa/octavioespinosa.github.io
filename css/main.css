@@ -40,7 +40,7 @@ a {
 }
 
 .header {
-  padding: 20px 0;
+  padding: 15px 0;
   position: relative;
   background-color:#004D44;
   background-color:var(--backgroundColor2);
@@ -64,7 +64,7 @@ a {
 
 .nav-links li, .language-links li {
   display: inline-block;
-  margin: 0 0 0 15px;
+  margin: 0 0 0 10px;
 }
 
 .nav-links li:first-child {
@@ -76,7 +76,7 @@ a {
   color:#f4f4f4;
   color:var(--textColor2);
   font-weight:bold;
-  padding: 0px 10px;
+  padding: 0px 5px;
 }
 
 .nav-links a:hover {
@@ -87,7 +87,7 @@ a {
 .language a {
   list-style: none;
   text-decoration: none;
-  padding: 0px 10px;
+  padding: 0px 5px;
 }
 
 header .current a{
