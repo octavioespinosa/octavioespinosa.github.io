@@ -76,6 +76,7 @@ a {
   color:#f4f4f4;
   color:var(--textColor2);
   font-weight:bold;
+  padding: 0px 10px;
 }
 
 .nav-links a:hover {
@@ -86,12 +87,13 @@ a {
 .language a {
   list-style: none;
   text-decoration: none;
-  margin: 0 2px;
+  padding: 0px 10px;
 }
 
 header .current a{
   color: #FFF8E7;
   color: var(--backgroundColor);
+  border-bottom: 3px solid #FFF8E7;
 }
 
 .language .current a{
