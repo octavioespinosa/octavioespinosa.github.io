@@ -55,14 +55,14 @@ a {
   
 }
 
-.nav-links {
+.nav-links, .language-links {
   margin: 0;
   padding: 0;
   font-size: 120%;
   list-style: none;
 }
 
-.nav-links li {
+.nav-links li, .language-links li {
   display: inline-block;
   margin: 0 0 0 15px;
 }
@@ -81,6 +81,16 @@ a {
 .nav-links a:hover {
   color:#cccccc;
   color:var(--hover);
+}
+
+header .current a{
+  color: #FFF8E7;
+  color: var(--backgroundColor);
+}
+
+.language .current a{
+  color: #004D44;
+  color: var(--backgroundColor2);
 }
 
 .content {
