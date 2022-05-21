@@ -83,14 +83,19 @@ a {
   color:var(--hover);
 }
 
+.language a {
+  text-decoration: none;
+}
+
 header .current a{
   color: #FFF8E7;
   color: var(--backgroundColor);
 }
 
 .language .current a{
-  color: #004D44;
-  color: var(--backgroundColor2);
+  color: #FFF8E7;
+  color: var(--backgroundColor);
+  background-color: var(--backgroundColor2);
 }
 
 .content {
