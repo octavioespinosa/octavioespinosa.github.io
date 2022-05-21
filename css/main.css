@@ -47,7 +47,7 @@ a {
   border-bottom: 1px solid #eaeaea;
 }
 
-.nav {
+.nav, .language {
   max-width: 800px;
   margin: 0 auto;
   padding: 0 15px;
