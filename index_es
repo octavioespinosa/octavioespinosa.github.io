@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Octavio Espinosa</title>
+<link rel="stylesheet" href="/css/main.css" media="all">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+		<!--<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">-->
+  <link rel="shortcut icon" type="image/png" href="/favicon.png">
+	</head>
+	<body>
+		<div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+    		<ul class="nav-links">
+        		<li class="current"><a href="/index_es.html">Home</a></li>
+	        	<li><a href="/About/index_es.html">About</a></li>
+        		<li><a href="/Publications/index_es.html">Publications</a></li>
+        		<li><a href="https://github.com/octavioespinosa">GitHub</a></li>
+    		</ul>
+		</nav>
+
+      </header>
+			
+			<div class="language">
+                    <ul class="language-links">
+                    <li><a href="/index_de.html" class="de">Deutsch</a></li> <!-- de -->
+                        <li class="current"><a href="/index.html" class="en">English</a></li> <!-- en -->
+                        <li><a href="/index_es.html" class="es">español</a></li> <!-- es --->
+                        <li><a href="/index_fr.html" class="en">français</a></li> <!-- fr -->
+                    </ul>
+                </div>
+			
+      <main class="content" role="main">
+		<div class="container">
+        		<h1>Octavio Espinosa</h1>
+			<p>Soy bioestadístico/bioinformático con una pasión general por las disciplinas STIM (ciencia, tecnología, ingeniería y matemáticas) y la comunicación de la ciencia.</p>
+			<p>Mi trabajo es principalmente en los campos de la bioestadística, la genética, la bioinformática, la biotecnología y el aprendizaje automático. Mi doctorado se centró en descubrir las relaciones entre el genoma y el fenoma en el ratón de laboratorio utilizando métodos estadísticos y computacionales. Durante mi posdoctorado me centré principalmente en la bioinformática del cáncer y el descubrimiento de fármacos contra el cáncer.</p>
+        		<p>✉ octavioespinosa{ a t }hotmail.com</p>
+		</div><!-- /.container -->
+
+
+</main>
+		</div>
+		<footer class="footer">
+    		OE, <script> document.write(new Date().toLocaleDateString()); </script>
+		</footer>
+	</body>
+</html>
