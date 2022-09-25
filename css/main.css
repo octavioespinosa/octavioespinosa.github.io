@@ -56,15 +56,19 @@ a {
 }
 
 .nav-links, .language-links {
-  margin: 5px 0px;
+  margin: 0;
   padding: 0;
   font-size: 120%;
   list-style: none;
 }
 
+.language-links {
+  margin: 5px 0px;
+}
+
 .nav-links li, .language-links li {
   display: inline-block;
-  margin: 5px 0px;
+  margin: 0 0 0 5px;
 }
 
 .nav-links li:first-child {
