@@ -71,6 +71,10 @@ a {
   margin: 0 0 0 5px;
 }
 
+.language-links li {
+  margin: 5px 0px;
+}
+
 .nav-links li:first-child {
   margin-left: 0;
 }
