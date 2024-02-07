@@ -19,14 +19,12 @@ body{
   font-family: Ubuntu, sans-serif;
   padding:0;
   margin:0;
-  background-color:#FFF8E7;
   background-color:var(--backgroundColor);
 }
 
 h1,
 h2,
 h3 {
-  color:#333333;
   color:var(--textColor1);
 }
 
@@ -50,7 +48,7 @@ a {
 .nav, .language {
   max-width: 800px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 0px;
   text-align: right;
   
 }
@@ -63,7 +61,7 @@ a {
 }
 
 .language-links {
-  margin: 5px 0px;
+  margin: 0px 0px;
 }
 
 .nav-links li, .language-links li {
@@ -81,14 +79,12 @@ a {
 
 .nav-links a {
   text-decoration: none;
-  color:#f4f4f4;
   color:var(--textColor2);
   font-weight:bold;
   padding: 0px 5px;
 }
 
 .nav-links a:hover {
-  color:#cccccc;
   color:var(--hover);
 }
 
@@ -99,13 +95,11 @@ a {
 }
 
 header .current a{
-  color: #FFF8E7;
   color: var(--backgroundColor);
   border-bottom: 3px solid #FFF8E7;
 }
 
 .language .current a{
-  color: #FFF8E7;
   color: var(--backgroundColor);
   background-color: var(--backgroundColor2);
 }
@@ -147,7 +141,6 @@ header .current a{
   padding: 10px 10px;
   line-height: normal;
   font-size: 100%;
-  color:#333333;
   color:var(--textColor1);
 }
 
